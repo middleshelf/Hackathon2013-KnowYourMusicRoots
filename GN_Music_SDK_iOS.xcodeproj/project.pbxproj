@@ -1,0 +1,935 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* GN_Music_SDK_iOSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* GN_Music_SDK_iOSAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* GN_Music_SDK_iOSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* GN_Music_SDK_iOSViewController.m */; };
+		5BB4775813A004B6001963F1 /* AlbumIdOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD69DAB139E3E8C00B342AE /* AlbumIdOperation.m */; };
+		8861563916724D45005F92EA /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8861563816724D45005F92EA /* libz.dylib */; };
+		88A9D407125AA16E000F9EE7 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A9D406125AA16E000F9EE7 /* CoreMedia.framework */; };
+		88A9D409125AA181000F9EE7 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A9D408125AA181000F9EE7 /* MediaPlayer.framework */; };
+		88E787231263D6F500EE5E34 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E787221263D6F500EE5E34 /* QuartzCore.framework */; };
+		9A23B51216AFC43D0091E340 /* 161.b in Resources */ = {isa = PBXBuildFile; fileRef = 9A23B51116AFC43D0091E340 /* 161.b */; };
+		9A37E4D2128977CD00EF2290 /* History.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 9A37E4D1128977CD00EF2290 /* History.xcdatamodel */; };
+		9A924162128A69BD00A20C59 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A924161128A69BD00A20C59 /* CoreData.framework */; };
+		9A9241CC128AA67800A20C59 /* History.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9241C7128AA67800A20C59 /* History.m */; };
+		9A9241CD128AA67800A20C59 /* Metadata.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9241C9128AA67800A20C59 /* Metadata.m */; };
+		9A9241CE128AA67800A20C59 /* CoverArt.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9241CB128AA67800A20C59 /* CoverArt.m */; };
+		9A9241D4128AA6AA00A20C59 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9241D3128AA6AA00A20C59 /* CoreLocation.framework */; };
+		9A924290128AC67700A20C59 /* SearchHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A92428E128AC67700A20C59 /* SearchHistoryViewController.m */; };
+		9A95661C16A020C100FE52C9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A95661B16A020C100FE52C9 /* Default-568h@2x.png */; };
+		9A971926162843F100505764 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A971925162843F100505764 /* libsqlite3.0.dylib */; };
+		9A971929162843FC00505764 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A971928162843FC00505764 /* Security.framework */; };
+		9A972C03162C4C7B00BA33A1 /* RecognizeStreamOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A972C02162C4C7B00BA33A1 /* RecognizeStreamOperation.m */; };
+		9A994AA5128D15F900C98934 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A994AA3128D15F900C98934 /* MapViewController.xib */; };
+		9AA95989128C0F4600111A1D /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA95987128C0F4600111A1D /* MapViewController.m */; };
+		9AA959B2128C0FF600111A1D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA959B1128C0FF600111A1D /* MapKit.framework */; };
+		9AA959D6128C16F000111A1D /* MapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA959D5128C16F000111A1D /* MapAnnotation.m */; };
+		9AA959F0128C1B4300111A1D /* AnnotationData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA959EF128C1B4300111A1D /* AnnotationData.m */; };
+		A0352A9E1293ECC10084EB14 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A9D404125AA169000F9EE7 /* AVFoundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		A044874812928A87002863F2 /* SearchByTrackIdOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A044874712928A87002863F2 /* SearchByTrackIdOperation.m */; };
+		A0DD2018129523AF00EA4A37 /* RecognizeFromFileOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DD2017129523AF00EA4A37 /* RecognizeFromFileOperation.m */; };
+		AF86A52C12FBDE1200BF7317 /* Review_biographyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF86A52B12FBDE1200BF7317 /* Review_biographyViewController.m */; };
+		AF86A52E12FBDE2400BF7317 /* Review_biographyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF86A52D12FBDE2400BF7317 /* Review_biographyViewController.xib */; };
+		AF86A5B612FBF66B00BF7317 /* AlbumDetailHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF86A5B512FBF66B00BF7317 /* AlbumDetailHeaderView.m */; };
+		B31BC3141879C48D0040DB30 /* button_search.png in Resources */ = {isa = PBXBuildFile; fileRef = B31BC3131879C48D0040DB30 /* button_search.png */; };
+		B31BC3151879C48D0040DB30 /* button_search.png in Resources */ = {isa = PBXBuildFile; fileRef = B31BC3131879C48D0040DB30 /* button_search.png */; };
+		B31BC3231879C4A60040DB30 /* album_1_small.png in Resources */ = {isa = PBXBuildFile; fileRef = B31BC3161879C4A60040DB30 /* album_1_small.png */; };
+		B31BC3241879C4A60040DB30 /* album_1_small.png in Resources */ = {isa = PBXBuildFile; fileRef = B31BC3161879C4A60040DB30 /* album_1_small.png */; };
+		B31BC3251879C4A60040DB30 /* album_2_small.png in Resources */ = {isa = PBXBuildFile; fileRef = B31BC3171879C4A60040DB30 /* album_2_small.png */; };
+		B31BC3261879C4A60040DB30 /* album_2_small.png in Resources */ = {isa = PBXBuildFile; fileRef = B31BC3171879C4A60040DB30 /* album_2_small.png */; };
+		B31BC3271879C4A60040DB30 /* album_3_small.png in Resources */ = {isa = PBXBuildFile; fileRef = B31BC3181879C4A60040DB30 /* album_3_small.png */; };
+		B31BC3281879C4A60040DB30 /* album_3_small.png in Resources */ = {isa = PBXBuildFile; fileRef = B31BC3181879C4A60040DB30 /* album_3_small.png */; };
+		B31BC3291879C4A60040DB30 /* album_4_small.png in Resources */ = {isa = PBXBuildFile; fileRef = B31BC3191879C4A60040DB30 /* album_4_small.png */; };
+		B31BC32A1879C4A60040DB30 /* album_4_small.png in Resources */ = {isa = PBXBuildFile; fileRef = B31BC3191879C4A60040DB30 /* album_4_small.png */; };
+		B31BC32B1879C4A60040DB30 /* album_5_small.png in Resources */ = {isa = PBXBuildFile; fileRef = B31BC31A1879C4A60040DB30 /* album_5_small.png */; };
+		B31BC32C1879C4A60040DB30 /* album_5_small.png in Resources */ = {isa = PBXBuildFile; fileRef = B31BC31A1879C4A60040DB30 /* album_5_small.png */; };
+		B31BC32D1879C4A60040DB30 /* album_6_small.png in Resources */ = {isa = PBXBuildFile; fileRef = B31BC31B1879C4A60040DB30 /* album_6_small.png */; };
+		B31BC32E1879C4A60040DB30 /* album_6_small.png in Resources */ = {isa = PBXBuildFile; fileRef = B31BC31B1879C4A60040DB30 /* album_6_small.png */; };
+		B31BC32F1879C4A60040DB30 /* album_7_small.png in Resources */ = {isa = PBXBuildFile; fileRef = B31BC31C1879C4A60040DB30 /* album_7_small.png */; };
+		B31BC3301879C4A60040DB30 /* album_7_small.png in Resources */ = {isa = PBXBuildFile; fileRef = B31BC31C1879C4A60040DB30 /* album_7_small.png */; };
+		B31BC3311879C4A60040DB30 /* album_8_small.png in Resources */ = {isa = PBXBuildFile; fileRef = B31BC31D1879C4A60040DB30 /* album_8_small.png */; };
+		B31BC3321879C4A60040DB30 /* album_8_small.png in Resources */ = {isa = PBXBuildFile; fileRef = B31BC31D1879C4A60040DB30 /* album_8_small.png */; };
+		B31BC3331879C4A60040DB30 /* album_daftpunk_large.png in Resources */ = {isa = PBXBuildFile; fileRef = B31BC31E1879C4A60040DB30 /* album_daftpunk_large.png */; };
+		B31BC3341879C4A60040DB30 /* album_daftpunk_large.png in Resources */ = {isa = PBXBuildFile; fileRef = B31BC31E1879C4A60040DB30 /* album_daftpunk_large.png */; };
+		B31BC3351879C4A60040DB30 /* album_edwinbirdsong_large.png in Resources */ = {isa = PBXBuildFile; fileRef = B31BC31F1879C4A60040DB30 /* album_edwinbirdsong_large.png */; };
+		B31BC3361879C4A60040DB30 /* album_edwinbirdsong_large.png in Resources */ = {isa = PBXBuildFile; fileRef = B31BC31F1879C4A60040DB30 /* album_edwinbirdsong_large.png */; };
+		B31BC3371879C4A60040DB30 /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = B31BC3201879C4A60040DB30 /* appicon.png */; };
+		B31BC3381879C4A60040DB30 /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = B31BC3201879C4A60040DB30 /* appicon.png */; };
+		B31BC3391879C4A60040DB30 /* arrow_sampledin_large.png in Resources */ = {isa = PBXBuildFile; fileRef = B31BC3211879C4A60040DB30 /* arrow_sampledin_large.png */; };
+		B31BC33A1879C4A60040DB30 /* arrow_sampledin_large.png in Resources */ = {isa = PBXBuildFile; fileRef = B31BC3211879C4A60040DB30 /* arrow_sampledin_large.png */; };
+		B31BC33B1879C4A60040DB30 /* arrow_sampledin_small.png in Resources */ = {isa = PBXBuildFile; fileRef = B31BC3221879C4A60040DB30 /* arrow_sampledin_small.png */; };
+		B31BC33C1879C4A60040DB30 /* arrow_sampledin_small.png in Resources */ = {isa = PBXBuildFile; fileRef = B31BC3221879C4A60040DB30 /* arrow_sampledin_small.png */; };
+		B31BC3441879C4C70040DB30 /* button_buy.png in Resources */ = {isa = PBXBuildFile; fileRef = B31BC33D1879C4C70040DB30 /* button_buy.png */; };
+		B31BC3451879C4C70040DB30 /* button_buy.png in Resources */ = {isa = PBXBuildFile; fileRef = B31BC33D1879C4C70040DB30 /* button_buy.png */; };
+		B31BC3461879C4C70040DB30 /* button_pause.png in Resources */ = {isa = PBXBuildFile; fileRef = B31BC33E1879C4C70040DB30 /* button_pause.png */; };
+		B31BC3471879C4C70040DB30 /* button_pause.png in Resources */ = {isa = PBXBuildFile; fileRef = B31BC33E1879C4C70040DB30 /* button_pause.png */; };
+		B31BC3481879C4C70040DB30 /* button_play.png in Resources */ = {isa = PBXBuildFile; fileRef = B31BC33F1879C4C70040DB30 /* button_play.png */; };
+		B31BC3491879C4C70040DB30 /* button_play.png in Resources */ = {isa = PBXBuildFile; fileRef = B31BC33F1879C4C70040DB30 /* button_play.png */; };
+		B31BC34A1879C4C70040DB30 /* button_search_2.png in Resources */ = {isa = PBXBuildFile; fileRef = B31BC3401879C4C70040DB30 /* button_search_2.png */; };
+		B31BC34B1879C4C70040DB30 /* button_search_2.png in Resources */ = {isa = PBXBuildFile; fileRef = B31BC3401879C4C70040DB30 /* button_search_2.png */; };
+		B31BC34C1879C4C70040DB30 /* button_search.png in Resources */ = {isa = PBXBuildFile; fileRef = B31BC3411879C4C70040DB30 /* button_search.png */; };
+		B31BC34D1879C4C70040DB30 /* button_search.png in Resources */ = {isa = PBXBuildFile; fileRef = B31BC3411879C4C70040DB30 /* button_search.png */; };
+		B31BC34E1879C4C70040DB30 /* button_tree.png in Resources */ = {isa = PBXBuildFile; fileRef = B31BC3421879C4C70040DB30 /* button_tree.png */; };
+		B31BC34F1879C4C70040DB30 /* button_tree.png in Resources */ = {isa = PBXBuildFile; fileRef = B31BC3421879C4C70040DB30 /* button_tree.png */; };
+		B31BC3501879C4C70040DB30 /* element_green.png in Resources */ = {isa = PBXBuildFile; fileRef = B31BC3431879C4C70040DB30 /* element_green.png */; };
+		B31BC3511879C4C70040DB30 /* element_green.png in Resources */ = {isa = PBXBuildFile; fileRef = B31BC3431879C4C70040DB30 /* element_green.png */; };
+		B31BC3531879C4DB0040DB30 /* text_roots.png in Resources */ = {isa = PBXBuildFile; fileRef = B31BC3521879C4DB0040DB30 /* text_roots.png */; };
+		B31BC3541879C4DB0040DB30 /* text_roots.png in Resources */ = {isa = PBXBuildFile; fileRef = B31BC3521879C4DB0040DB30 /* text_roots.png */; };
+		B31BC3561879CD2C0040DB30 /* GN_Music_SDK_iOSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B37015D218796CDC00863E57 /* GN_Music_SDK_iOSViewController.xib */; };
+		B37015CF18794D0C00863E57 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B37015CE18794D0C00863E57 /* icon.png */; };
+		B37015D118794FE900863E57 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B37015D018794FE900863E57 /* Default.png */; };
+		B37015D318796CDC00863E57 /* GN_Music_SDK_iOSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B37015D218796CDC00863E57 /* GN_Music_SDK_iOSViewController.xib */; };
+		B37015E11879BFB000863E57 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = B37015E01879BFB000863E57 /* background.png */; };
+		CD6846D611D9464D00E4BF53 /* Dido_MyLoversGone_Fingerprint_MIDStream.xml in Resources */ = {isa = PBXBuildFile; fileRef = CD6846D311D9464D00E4BF53 /* Dido_MyLoversGone_Fingerprint_MIDStream.xml */; };
+		CD6846D711D9464D00E4BF53 /* icon.old.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6846D411D9464D00E4BF53 /* icon.old.png */; };
+		CD6846D811D9464D00E4BF53 /* sample.pcm in Resources */ = {isa = PBXBuildFile; fileRef = CD6846D511D9464D00E4BF53 /* sample.pcm */; };
+		CD6846DC11D9465E00E4BF53 /* SearchByLyricFragmentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6846D911D9465E00E4BF53 /* SearchByLyricFragmentViewController.xib */; };
+		CD6846DD11D9465E00E4BF53 /* SearchByTextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6846DA11D9465E00E4BF53 /* SearchByTextViewController.xib */; };
+		CD6846DE11D9465E00E4BF53 /* SearchResultTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6846DB11D9465E00E4BF53 /* SearchResultTableViewController.xib */; };
+		CD6846F511D9469100E4BF53 /* LookupFingerprintOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6846E211D9469100E4BF53 /* LookupFingerprintOperation.m */; };
+		CD6846F611D9469100E4BF53 /* RecognizeFromMicOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6846E411D9469100E4BF53 /* RecognizeFromMicOperation.m */; };
+		CD6846F711D9469100E4BF53 /* RecognizeFromPCMOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6846E611D9469100E4BF53 /* RecognizeFromPCMOperation.m */; };
+		CD6846F811D9469100E4BF53 /* SearchByFingerprintOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6846E811D9469100E4BF53 /* SearchByFingerprintOperation.m */; };
+		CD6846F911D9469100E4BF53 /* SearchByLyricFragmentOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6846EA11D9469100E4BF53 /* SearchByLyricFragmentOperation.m */; };
+		CD6846FA11D9469100E4BF53 /* SearchByLyricFragmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6846EC11D9469100E4BF53 /* SearchByLyricFragmentViewController.m */; };
+		CD6846FB11D9469100E4BF53 /* SearchByOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6846EE11D9469100E4BF53 /* SearchByOperation.m */; };
+		CD6846FC11D9469100E4BF53 /* SearchByTextOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6846F011D9469100E4BF53 /* SearchByTextOperation.m */; };
+		CD6846FD11D9469100E4BF53 /* SearchByTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6846F211D9469100E4BF53 /* SearchByTextViewController.m */; };
+		CD6846FE11D9469100E4BF53 /* SearchResultTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6846F411D9469100E4BF53 /* SearchResultTableViewController.m */; };
+		CD68474B11D94D0E00E4BF53 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD68474911D94D0E00E4BF53 /* AudioToolbox.framework */; };
+		CD68474C11D94D0E00E4BF53 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD68474A11D94D0E00E4BF53 /* libxml2.dylib */; };
+		CE67A0E1159CA3D6000C3D25 /* no_Loading.png in Resources */ = {isa = PBXBuildFile; fileRef = CE67A0E0159CA3D6000C3D25 /* no_Loading.png */; };
+		CEB8225B1538388E0050C8DF /* SearchHistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEB8225A1538388E0050C8DF /* SearchHistoryViewController.xib */; };
+		CEC9BE2D1534698900BC8F6A /* SizableImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC9BE2C1534698900BC8F6A /* SizableImageCell.m */; };
+		CEC9BE3515346AA600BC8F6A /* IconDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC9BE3415346AA600BC8F6A /* IconDownloader.m */; };
+		CEC9BE3815346AB100BC8F6A /* loading.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC9BE3715346AB100BC8F6A /* loading.png */; };
+		CEFE471F155BACCD006B0432 /* ImgRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFE471E155BACCD006B0432 /* ImgRecord.m */; };
+		DBE811FE1372B90800B6B9DE /* GracenoteMusicID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE811FD1372B90800B6B9DE /* GracenoteMusicID.framework */; };
+		ED711456180CC80B009426F0 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		ED711458180CC80B009426F0 /* Dido_MyLoversGone_Fingerprint_MIDStream.xml in Resources */ = {isa = PBXBuildFile; fileRef = CD6846D311D9464D00E4BF53 /* Dido_MyLoversGone_Fingerprint_MIDStream.xml */; };
+		ED711459180CC80B009426F0 /* icon.old.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6846D411D9464D00E4BF53 /* icon.old.png */; };
+		ED71145A180CC80B009426F0 /* sample.pcm in Resources */ = {isa = PBXBuildFile; fileRef = CD6846D511D9464D00E4BF53 /* sample.pcm */; };
+		ED71145B180CC80B009426F0 /* SearchByLyricFragmentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6846D911D9465E00E4BF53 /* SearchByLyricFragmentViewController.xib */; };
+		ED71145C180CC80B009426F0 /* SearchByTextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6846DA11D9465E00E4BF53 /* SearchByTextViewController.xib */; };
+		ED71145D180CC80B009426F0 /* SearchResultTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6846DB11D9465E00E4BF53 /* SearchResultTableViewController.xib */; };
+		ED71145E180CC80B009426F0 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A994AA3128D15F900C98934 /* MapViewController.xib */; };
+		ED71145F180CC80B009426F0 /* Review_biographyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF86A52D12FBDE2400BF7317 /* Review_biographyViewController.xib */; };
+		ED711460180CC80B009426F0 /* loading.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC9BE3715346AB100BC8F6A /* loading.png */; };
+		ED711461180CC80B009426F0 /* SearchHistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEB8225A1538388E0050C8DF /* SearchHistoryViewController.xib */; };
+		ED711462180CC80B009426F0 /* no_Loading.png in Resources */ = {isa = PBXBuildFile; fileRef = CE67A0E0159CA3D6000C3D25 /* no_Loading.png */; };
+		ED711463180CC80B009426F0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A95661B16A020C100FE52C9 /* Default-568h@2x.png */; };
+		ED711464180CC80B009426F0 /* 161.b in Resources */ = {isa = PBXBuildFile; fileRef = 9A23B51116AFC43D0091E340 /* 161.b */; };
+		ED711466180CC80B009426F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		ED711467180CC80B009426F0 /* GN_Music_SDK_iOSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* GN_Music_SDK_iOSAppDelegate.m */; };
+		ED711468180CC80B009426F0 /* GN_Music_SDK_iOSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* GN_Music_SDK_iOSViewController.m */; };
+		ED711469180CC80B009426F0 /* LookupFingerprintOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6846E211D9469100E4BF53 /* LookupFingerprintOperation.m */; };
+		ED71146A180CC80B009426F0 /* RecognizeFromMicOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6846E411D9469100E4BF53 /* RecognizeFromMicOperation.m */; };
+		ED71146B180CC80B009426F0 /* RecognizeFromPCMOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6846E611D9469100E4BF53 /* RecognizeFromPCMOperation.m */; };
+		ED71146C180CC80B009426F0 /* SearchByFingerprintOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6846E811D9469100E4BF53 /* SearchByFingerprintOperation.m */; };
+		ED71146D180CC80B009426F0 /* SearchByLyricFragmentOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6846EA11D9469100E4BF53 /* SearchByLyricFragmentOperation.m */; };
+		ED71146E180CC80B009426F0 /* SearchByLyricFragmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6846EC11D9469100E4BF53 /* SearchByLyricFragmentViewController.m */; };
+		ED71146F180CC80B009426F0 /* SearchByOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6846EE11D9469100E4BF53 /* SearchByOperation.m */; };
+		ED711470180CC80B009426F0 /* SearchByTextOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6846F011D9469100E4BF53 /* SearchByTextOperation.m */; };
+		ED711471180CC80B009426F0 /* SearchByTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6846F211D9469100E4BF53 /* SearchByTextViewController.m */; };
+		ED711472180CC80B009426F0 /* SearchResultTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6846F411D9469100E4BF53 /* SearchResultTableViewController.m */; };
+		ED711473180CC80B009426F0 /* History.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 9A37E4D1128977CD00EF2290 /* History.xcdatamodel */; };
+		ED711474180CC80B009426F0 /* History.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9241C7128AA67800A20C59 /* History.m */; };
+		ED711475180CC80B009426F0 /* Metadata.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9241C9128AA67800A20C59 /* Metadata.m */; };
+		ED711476180CC80B009426F0 /* CoverArt.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9241CB128AA67800A20C59 /* CoverArt.m */; };
+		ED711477180CC80B009426F0 /* SearchHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A92428E128AC67700A20C59 /* SearchHistoryViewController.m */; };
+		ED711478180CC80B009426F0 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA95987128C0F4600111A1D /* MapViewController.m */; };
+		ED711479180CC80B009426F0 /* MapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA959D5128C16F000111A1D /* MapAnnotation.m */; };
+		ED71147A180CC80B009426F0 /* AnnotationData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA959EF128C1B4300111A1D /* AnnotationData.m */; };
+		ED71147B180CC80B009426F0 /* SearchByTrackIdOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A044874712928A87002863F2 /* SearchByTrackIdOperation.m */; };
+		ED71147C180CC80B009426F0 /* RecognizeFromFileOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DD2017129523AF00EA4A37 /* RecognizeFromFileOperation.m */; };
+		ED71147D180CC80B009426F0 /* Review_biographyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF86A52B12FBDE1200BF7317 /* Review_biographyViewController.m */; };
+		ED71147E180CC80B009426F0 /* AlbumDetailHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF86A5B512FBF66B00BF7317 /* AlbumDetailHeaderView.m */; };
+		ED71147F180CC80B009426F0 /* AlbumIdOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD69DAB139E3E8C00B342AE /* AlbumIdOperation.m */; };
+		ED711480180CC80B009426F0 /* SizableImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC9BE2C1534698900BC8F6A /* SizableImageCell.m */; };
+		ED711481180CC80B009426F0 /* IconDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC9BE3415346AA600BC8F6A /* IconDownloader.m */; };
+		ED711482180CC80B009426F0 /* ImgRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFE471E155BACCD006B0432 /* ImgRecord.m */; };
+		ED711483180CC80B009426F0 /* RecognizeStreamOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A972C02162C4C7B00BA33A1 /* RecognizeStreamOperation.m */; };
+		ED711485180CC80B009426F0 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8861563816724D45005F92EA /* libz.dylib */; };
+		ED711486180CC80B009426F0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A971928162843FC00505764 /* Security.framework */; };
+		ED711487180CC80B009426F0 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A971925162843F100505764 /* libsqlite3.0.dylib */; };
+		ED711488180CC80B009426F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		ED711489180CC80B009426F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		ED71148A180CC80B009426F0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		ED71148B180CC80B009426F0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD68474911D94D0E00E4BF53 /* AudioToolbox.framework */; };
+		ED71148C180CC80B009426F0 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD68474A11D94D0E00E4BF53 /* libxml2.dylib */; };
+		ED71148D180CC80B009426F0 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A9D406125AA16E000F9EE7 /* CoreMedia.framework */; };
+		ED71148E180CC80B009426F0 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A9D408125AA181000F9EE7 /* MediaPlayer.framework */; };
+		ED71148F180CC80B009426F0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E787221263D6F500EE5E34 /* QuartzCore.framework */; };
+		ED711490180CC80B009426F0 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A924161128A69BD00A20C59 /* CoreData.framework */; };
+		ED711491180CC80B009426F0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9241D3128AA6AA00A20C59 /* CoreLocation.framework */; };
+		ED711492180CC80B009426F0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA959B1128C0FF600111A1D /* MapKit.framework */; };
+		ED711493180CC80B009426F0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A9D404125AA169000F9EE7 /* AVFoundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		ED711494180CC80B009426F0 /* GracenoteMusicID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE811FD1372B90800B6B9DE /* GracenoteMusicID.framework */; };
+		ED8A8796181AFC020096BE49 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED8A8795181AFC020096BE49 /* AdSupport.framework */; };
+		ED8A8797181AFC0D0096BE49 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED8A8795181AFC020096BE49 /* AdSupport.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* GN_Music_SDK_iOSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GN_Music_SDK_iOSAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* GN_Music_SDK_iOSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GN_Music_SDK_iOSAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Roots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roots.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* GN_Music_SDK_iOSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GN_Music_SDK_iOSViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* GN_Music_SDK_iOSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GN_Music_SDK_iOSViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* GN_Music_SDK_iOS_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GN_Music_SDK_iOS_Prefix.pch; sourceTree = "<group>"; };
+		8861563816724D45005F92EA /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		88A9D404125AA169000F9EE7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		88A9D406125AA16E000F9EE7 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		88A9D408125AA181000F9EE7 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		88E787221263D6F500EE5E34 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8D1107310486CEB800E47090 /* GN_Music_SDK_iOS-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GN_Music_SDK_iOS-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		9A23B51116AFC43D0091E340 /* 161.b */ = {isa = PBXFileReference; lastKnownFileType = file; path = 161.b; sourceTree = "<group>"; };
+		9A37E4D1128977CD00EF2290 /* History.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = History.xcdatamodel; sourceTree = "<group>"; };
+		9A924161128A69BD00A20C59 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9A9241C6128AA67800A20C59 /* History.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = History.h; sourceTree = "<group>"; };
+		9A9241C7128AA67800A20C59 /* History.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = History.m; sourceTree = "<group>"; };
+		9A9241C8128AA67800A20C59 /* Metadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Metadata.h; sourceTree = "<group>"; };
+		9A9241C9128AA67800A20C59 /* Metadata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Metadata.m; sourceTree = "<group>"; };
+		9A9241CA128AA67800A20C59 /* CoverArt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoverArt.h; sourceTree = "<group>"; };
+		9A9241CB128AA67800A20C59 /* CoverArt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoverArt.m; sourceTree = "<group>"; };
+		9A9241D3128AA6AA00A20C59 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9A92428D128AC67700A20C59 /* SearchHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchHistoryViewController.h; sourceTree = "<group>"; };
+		9A92428E128AC67700A20C59 /* SearchHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchHistoryViewController.m; sourceTree = "<group>"; };
+		9A95661B16A020C100FE52C9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9A971925162843F100505764 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		9A971928162843FC00505764 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9A972C02162C4C7B00BA33A1 /* RecognizeStreamOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecognizeStreamOperation.m; sourceTree = "<group>"; };
+		9A97CE57168DC408000FA08D /* RecognizeStreamOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecognizeStreamOperation.h; sourceTree = "<group>"; };
+		9A994AA3128D15F900C98934 /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		9AA95986128C0F4600111A1D /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		9AA95987128C0F4600111A1D /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		9AA959B1128C0FF600111A1D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		9AA959D4128C16F000111A1D /* MapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapAnnotation.h; sourceTree = "<group>"; };
+		9AA959D5128C16F000111A1D /* MapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapAnnotation.m; sourceTree = "<group>"; };
+		9AA959EE128C1B4300111A1D /* AnnotationData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnotationData.h; sourceTree = "<group>"; };
+		9AA959EF128C1B4300111A1D /* AnnotationData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnotationData.m; sourceTree = "<group>"; };
+		A044874612928A87002863F2 /* SearchByTrackIdOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchByTrackIdOperation.h; sourceTree = "<group>"; };
+		A044874712928A87002863F2 /* SearchByTrackIdOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchByTrackIdOperation.m; sourceTree = "<group>"; };
+		A0DD2016129523AF00EA4A37 /* RecognizeFromFileOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecognizeFromFileOperation.h; sourceTree = "<group>"; };
+		A0DD2017129523AF00EA4A37 /* RecognizeFromFileOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecognizeFromFileOperation.m; sourceTree = "<group>"; };
+		AF86A52A12FBDE1200BF7317 /* Review_biographyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Review_biographyViewController.h; sourceTree = "<group>"; };
+		AF86A52B12FBDE1200BF7317 /* Review_biographyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Review_biographyViewController.m; sourceTree = "<group>"; };
+		AF86A52D12FBDE2400BF7317 /* Review_biographyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Review_biographyViewController.xib; sourceTree = "<group>"; };
+		AF86A5B412FBF66B00BF7317 /* AlbumDetailHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumDetailHeaderView.h; sourceTree = "<group>"; };
+		AF86A5B512FBF66B00BF7317 /* AlbumDetailHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumDetailHeaderView.m; sourceTree = "<group>"; };
+		B31BC3131879C48D0040DB30 /* button_search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_search.png; sourceTree = "<group>"; };
+		B31BC3161879C4A60040DB30 /* album_1_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = album_1_small.png; sourceTree = "<group>"; };
+		B31BC3171879C4A60040DB30 /* album_2_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = album_2_small.png; sourceTree = "<group>"; };
+		B31BC3181879C4A60040DB30 /* album_3_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = album_3_small.png; sourceTree = "<group>"; };
+		B31BC3191879C4A60040DB30 /* album_4_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = album_4_small.png; sourceTree = "<group>"; };
+		B31BC31A1879C4A60040DB30 /* album_5_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = album_5_small.png; sourceTree = "<group>"; };
+		B31BC31B1879C4A60040DB30 /* album_6_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = album_6_small.png; sourceTree = "<group>"; };
+		B31BC31C1879C4A60040DB30 /* album_7_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = album_7_small.png; sourceTree = "<group>"; };
+		B31BC31D1879C4A60040DB30 /* album_8_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = album_8_small.png; sourceTree = "<group>"; };
+		B31BC31E1879C4A60040DB30 /* album_daftpunk_large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = album_daftpunk_large.png; sourceTree = "<group>"; };
+		B31BC31F1879C4A60040DB30 /* album_edwinbirdsong_large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = album_edwinbirdsong_large.png; sourceTree = "<group>"; };
+		B31BC3201879C4A60040DB30 /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon.png; sourceTree = "<group>"; };
+		B31BC3211879C4A60040DB30 /* arrow_sampledin_large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_sampledin_large.png; sourceTree = "<group>"; };
+		B31BC3221879C4A60040DB30 /* arrow_sampledin_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_sampledin_small.png; sourceTree = "<group>"; };
+		B31BC33D1879C4C70040DB30 /* button_buy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_buy.png; sourceTree = "<group>"; };
+		B31BC33E1879C4C70040DB30 /* button_pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_pause.png; sourceTree = "<group>"; };
+		B31BC33F1879C4C70040DB30 /* button_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_play.png; sourceTree = "<group>"; };
+		B31BC3401879C4C70040DB30 /* button_search_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_search_2.png; sourceTree = "<group>"; };
+		B31BC3411879C4C70040DB30 /* button_search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_search.png; sourceTree = "<group>"; };
+		B31BC3421879C4C70040DB30 /* button_tree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_tree.png; sourceTree = "<group>"; };
+		B31BC3431879C4C70040DB30 /* element_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = element_green.png; sourceTree = "<group>"; };
+		B31BC3521879C4DB0040DB30 /* text_roots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text_roots.png; sourceTree = "<group>"; };
+		B37015CE18794D0C00863E57 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		B37015D018794FE900863E57 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B37015D218796CDC00863E57 /* GN_Music_SDK_iOSViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GN_Music_SDK_iOSViewController.xib; sourceTree = "<group>"; };
+		B37015E01879BFB000863E57 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		CD6846D311D9464D00E4BF53 /* Dido_MyLoversGone_Fingerprint_MIDStream.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Dido_MyLoversGone_Fingerprint_MIDStream.xml; sourceTree = "<group>"; };
+		CD6846D411D9464D00E4BF53 /* icon.old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.old.png; sourceTree = "<group>"; };
+		CD6846D511D9464D00E4BF53 /* sample.pcm */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.pcm; sourceTree = "<group>"; };
+		CD6846D911D9465E00E4BF53 /* SearchByLyricFragmentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchByLyricFragmentViewController.xib; sourceTree = "<group>"; };
+		CD6846DA11D9465E00E4BF53 /* SearchByTextViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchByTextViewController.xib; sourceTree = "<group>"; };
+		CD6846DB11D9465E00E4BF53 /* SearchResultTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultTableViewController.xib; sourceTree = "<group>"; };
+		CD6846E111D9469100E4BF53 /* LookupFingerprintOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LookupFingerprintOperation.h; sourceTree = "<group>"; };
+		CD6846E211D9469100E4BF53 /* LookupFingerprintOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LookupFingerprintOperation.m; sourceTree = "<group>"; };
+		CD6846E311D9469100E4BF53 /* RecognizeFromMicOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecognizeFromMicOperation.h; sourceTree = "<group>"; };
+		CD6846E411D9469100E4BF53 /* RecognizeFromMicOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecognizeFromMicOperation.m; sourceTree = "<group>"; };
+		CD6846E511D9469100E4BF53 /* RecognizeFromPCMOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecognizeFromPCMOperation.h; sourceTree = "<group>"; };
+		CD6846E611D9469100E4BF53 /* RecognizeFromPCMOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecognizeFromPCMOperation.m; sourceTree = "<group>"; };
+		CD6846E711D9469100E4BF53 /* SearchByFingerprintOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchByFingerprintOperation.h; sourceTree = "<group>"; };
+		CD6846E811D9469100E4BF53 /* SearchByFingerprintOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchByFingerprintOperation.m; sourceTree = "<group>"; };
+		CD6846E911D9469100E4BF53 /* SearchByLyricFragmentOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchByLyricFragmentOperation.h; sourceTree = "<group>"; };
+		CD6846EA11D9469100E4BF53 /* SearchByLyricFragmentOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchByLyricFragmentOperation.m; sourceTree = "<group>"; };
+		CD6846EB11D9469100E4BF53 /* SearchByLyricFragmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchByLyricFragmentViewController.h; sourceTree = "<group>"; };
+		CD6846EC11D9469100E4BF53 /* SearchByLyricFragmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchByLyricFragmentViewController.m; sourceTree = "<group>"; };
+		CD6846ED11D9469100E4BF53 /* SearchByOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchByOperation.h; sourceTree = "<group>"; };
+		CD6846EE11D9469100E4BF53 /* SearchByOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchByOperation.m; sourceTree = "<group>"; };
+		CD6846EF11D9469100E4BF53 /* SearchByTextOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchByTextOperation.h; sourceTree = "<group>"; };
+		CD6846F011D9469100E4BF53 /* SearchByTextOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchByTextOperation.m; sourceTree = "<group>"; };
+		CD6846F111D9469100E4BF53 /* SearchByTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchByTextViewController.h; sourceTree = "<group>"; };
+		CD6846F211D9469100E4BF53 /* SearchByTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchByTextViewController.m; sourceTree = "<group>"; };
+		CD6846F311D9469100E4BF53 /* SearchResultTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultTableViewController.h; sourceTree = "<group>"; };
+		CD6846F411D9469100E4BF53 /* SearchResultTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultTableViewController.m; sourceTree = "<group>"; };
+		CD68474911D94D0E00E4BF53 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CD68474A11D94D0E00E4BF53 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		CE4642FB151B7B2E00B0D75C /* constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constant.h; sourceTree = "<group>"; };
+		CE67A0E0159CA3D6000C3D25 /* no_Loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = no_Loading.png; sourceTree = "<group>"; };
+		CEB8225A1538388E0050C8DF /* SearchHistoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchHistoryViewController.xib; sourceTree = "<group>"; };
+		CEC9BE2B1534698900BC8F6A /* SizableImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SizableImageCell.h; sourceTree = "<group>"; };
+		CEC9BE2C1534698900BC8F6A /* SizableImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SizableImageCell.m; sourceTree = "<group>"; };
+		CEC9BE3315346AA600BC8F6A /* IconDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconDownloader.h; sourceTree = "<group>"; };
+		CEC9BE3415346AA600BC8F6A /* IconDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconDownloader.m; sourceTree = "<group>"; };
+		CEC9BE3715346AB100BC8F6A /* loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading.png; sourceTree = "<group>"; };
+		CEFE471D155BACCD006B0432 /* ImgRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImgRecord.h; sourceTree = "<group>"; };
+		CEFE471E155BACCD006B0432 /* ImgRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImgRecord.m; sourceTree = "<group>"; };
+		DBD69DAA139E3E8C00B342AE /* AlbumIdOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumIdOperation.h; sourceTree = "<group>"; };
+		DBD69DAB139E3E8C00B342AE /* AlbumIdOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumIdOperation.m; sourceTree = "<group>"; };
+		DBE811FD1372B90800B6B9DE /* GracenoteMusicID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GracenoteMusicID.framework; sourceTree = "<group>"; };
+		ED711498180CC80B009426F0 /* GN_Music_SDK_iOS_64bit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GN_Music_SDK_iOS_64bit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED711499180CC80C009426F0 /* GN_Music_SDK_iOS_64bit.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = GN_Music_SDK_iOS_64bit.plist; sourceTree = "<group>"; };
+		ED8A8795181AFC020096BE49 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8A8796181AFC020096BE49 /* AdSupport.framework in Frameworks */,
+				8861563916724D45005F92EA /* libz.dylib in Frameworks */,
+				9A971929162843FC00505764 /* Security.framework in Frameworks */,
+				9A971926162843F100505764 /* libsqlite3.0.dylib in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				CD68474B11D94D0E00E4BF53 /* AudioToolbox.framework in Frameworks */,
+				CD68474C11D94D0E00E4BF53 /* libxml2.dylib in Frameworks */,
+				88A9D407125AA16E000F9EE7 /* CoreMedia.framework in Frameworks */,
+				88A9D409125AA181000F9EE7 /* MediaPlayer.framework in Frameworks */,
+				88E787231263D6F500EE5E34 /* QuartzCore.framework in Frameworks */,
+				9A924162128A69BD00A20C59 /* CoreData.framework in Frameworks */,
+				9A9241D4128AA6AA00A20C59 /* CoreLocation.framework in Frameworks */,
+				9AA959B2128C0FF600111A1D /* MapKit.framework in Frameworks */,
+				A0352A9E1293ECC10084EB14 /* AVFoundation.framework in Frameworks */,
+				DBE811FE1372B90800B6B9DE /* GracenoteMusicID.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED711484180CC80B009426F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8A8797181AFC0D0096BE49 /* AdSupport.framework in Frameworks */,
+				ED711485180CC80B009426F0 /* libz.dylib in Frameworks */,
+				ED711486180CC80B009426F0 /* Security.framework in Frameworks */,
+				ED711487180CC80B009426F0 /* libsqlite3.0.dylib in Frameworks */,
+				ED711488180CC80B009426F0 /* Foundation.framework in Frameworks */,
+				ED711489180CC80B009426F0 /* UIKit.framework in Frameworks */,
+				ED71148A180CC80B009426F0 /* CoreGraphics.framework in Frameworks */,
+				ED71148B180CC80B009426F0 /* AudioToolbox.framework in Frameworks */,
+				ED71148C180CC80B009426F0 /* libxml2.dylib in Frameworks */,
+				ED71148D180CC80B009426F0 /* CoreMedia.framework in Frameworks */,
+				ED71148E180CC80B009426F0 /* MediaPlayer.framework in Frameworks */,
+				ED71148F180CC80B009426F0 /* QuartzCore.framework in Frameworks */,
+				ED711490180CC80B009426F0 /* CoreData.framework in Frameworks */,
+				ED711491180CC80B009426F0 /* CoreLocation.framework in Frameworks */,
+				ED711492180CC80B009426F0 /* MapKit.framework in Frameworks */,
+				ED711493180CC80B009426F0 /* AVFoundation.framework in Frameworks */,
+				ED711494180CC80B009426F0 /* GracenoteMusicID.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CEFE471D155BACCD006B0432 /* ImgRecord.h */,
+				CEFE471E155BACCD006B0432 /* ImgRecord.m */,
+				CEC9BE3315346AA600BC8F6A /* IconDownloader.h */,
+				CEC9BE3415346AA600BC8F6A /* IconDownloader.m */,
+				CEC9BE2B1534698900BC8F6A /* SizableImageCell.h */,
+				CEC9BE2C1534698900BC8F6A /* SizableImageCell.m */,
+				CE4642FB151B7B2E00B0D75C /* constant.h */,
+				1D3623240D0F684500981E51 /* GN_Music_SDK_iOSAppDelegate.h */,
+				1D3623250D0F684500981E51 /* GN_Music_SDK_iOSAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* GN_Music_SDK_iOSViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* GN_Music_SDK_iOSViewController.m */,
+				CD6846E111D9469100E4BF53 /* LookupFingerprintOperation.h */,
+				CD6846E211D9469100E4BF53 /* LookupFingerprintOperation.m */,
+				CD6846E311D9469100E4BF53 /* RecognizeFromMicOperation.h */,
+				CD6846E411D9469100E4BF53 /* RecognizeFromMicOperation.m */,
+				CD6846E511D9469100E4BF53 /* RecognizeFromPCMOperation.h */,
+				CD6846E611D9469100E4BF53 /* RecognizeFromPCMOperation.m */,
+				9A97CE57168DC408000FA08D /* RecognizeStreamOperation.h */,
+				9A972C02162C4C7B00BA33A1 /* RecognizeStreamOperation.m */,
+				A0DD2016129523AF00EA4A37 /* RecognizeFromFileOperation.h */,
+				A0DD2017129523AF00EA4A37 /* RecognizeFromFileOperation.m */,
+				DBD69DAA139E3E8C00B342AE /* AlbumIdOperation.h */,
+				DBD69DAB139E3E8C00B342AE /* AlbumIdOperation.m */,
+				CD6846E711D9469100E4BF53 /* SearchByFingerprintOperation.h */,
+				CD6846E811D9469100E4BF53 /* SearchByFingerprintOperation.m */,
+				CD6846E911D9469100E4BF53 /* SearchByLyricFragmentOperation.h */,
+				CD6846EA11D9469100E4BF53 /* SearchByLyricFragmentOperation.m */,
+				CD6846EB11D9469100E4BF53 /* SearchByLyricFragmentViewController.h */,
+				CD6846EC11D9469100E4BF53 /* SearchByLyricFragmentViewController.m */,
+				CD6846ED11D9469100E4BF53 /* SearchByOperation.h */,
+				CD6846EE11D9469100E4BF53 /* SearchByOperation.m */,
+				CD6846EF11D9469100E4BF53 /* SearchByTextOperation.h */,
+				CD6846F011D9469100E4BF53 /* SearchByTextOperation.m */,
+				A044874612928A87002863F2 /* SearchByTrackIdOperation.h */,
+				A044874712928A87002863F2 /* SearchByTrackIdOperation.m */,
+				CD6846F111D9469100E4BF53 /* SearchByTextViewController.h */,
+				CD6846F211D9469100E4BF53 /* SearchByTextViewController.m */,
+				CD6846F311D9469100E4BF53 /* SearchResultTableViewController.h */,
+				CD6846F411D9469100E4BF53 /* SearchResultTableViewController.m */,
+				9A9241C6128AA67800A20C59 /* History.h */,
+				9A9241C7128AA67800A20C59 /* History.m */,
+				9A9241C8128AA67800A20C59 /* Metadata.h */,
+				9A9241C9128AA67800A20C59 /* Metadata.m */,
+				9A9241CA128AA67800A20C59 /* CoverArt.h */,
+				9A9241CB128AA67800A20C59 /* CoverArt.m */,
+				9A92428D128AC67700A20C59 /* SearchHistoryViewController.h */,
+				9A92428E128AC67700A20C59 /* SearchHistoryViewController.m */,
+				9AA95986128C0F4600111A1D /* MapViewController.h */,
+				9AA95987128C0F4600111A1D /* MapViewController.m */,
+				9AA959D4128C16F000111A1D /* MapAnnotation.h */,
+				9AA959D5128C16F000111A1D /* MapAnnotation.m */,
+				9AA959EE128C1B4300111A1D /* AnnotationData.h */,
+				9AA959EF128C1B4300111A1D /* AnnotationData.m */,
+				AF86A52A12FBDE1200BF7317 /* Review_biographyViewController.h */,
+				AF86A52B12FBDE1200BF7317 /* Review_biographyViewController.m */,
+				AF86A5B412FBF66B00BF7317 /* AlbumDetailHeaderView.h */,
+				AF86A5B512FBF66B00BF7317 /* AlbumDetailHeaderView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Roots.app */,
+				ED711498180CC80B009426F0 /* GN_Music_SDK_iOS_64bit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				9A23B51116AFC43D0091E340 /* 161.b */,
+				9A95661B16A020C100FE52C9 /* Default-568h@2x.png */,
+				CE67A0E0159CA3D6000C3D25 /* no_Loading.png */,
+				CEB8225A1538388E0050C8DF /* SearchHistoryViewController.xib */,
+				CEC9BE3715346AB100BC8F6A /* loading.png */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* GN_Music_SDK_iOS_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B31BC3551879C4EC0040DB30 /* images */,
+				9A994AA3128D15F900C98934 /* MapViewController.xib */,
+				9A37E4D1128977CD00EF2290 /* History.xcdatamodel */,
+				8D1107310486CEB800E47090 /* GN_Music_SDK_iOS-Info.plist */,
+				ED711499180CC80C009426F0 /* GN_Music_SDK_iOS_64bit.plist */,
+				B37015D218796CDC00863E57 /* GN_Music_SDK_iOSViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				CD6846D911D9465E00E4BF53 /* SearchByLyricFragmentViewController.xib */,
+				CD6846DA11D9465E00E4BF53 /* SearchByTextViewController.xib */,
+				CD6846DB11D9465E00E4BF53 /* SearchResultTableViewController.xib */,
+				AF86A52D12FBDE2400BF7317 /* Review_biographyViewController.xib */,
+				CD6846D311D9464D00E4BF53 /* Dido_MyLoversGone_Fingerprint_MIDStream.xml */,
+				CD6846D411D9464D00E4BF53 /* icon.old.png */,
+				CD6846D511D9464D00E4BF53 /* sample.pcm */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED8A8795181AFC020096BE49 /* AdSupport.framework */,
+				8861563816724D45005F92EA /* libz.dylib */,
+				9A971928162843FC00505764 /* Security.framework */,
+				9A971925162843F100505764 /* libsqlite3.0.dylib */,
+				88E787221263D6F500EE5E34 /* QuartzCore.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				CD68474A11D94D0E00E4BF53 /* libxml2.dylib */,
+				CD68474911D94D0E00E4BF53 /* AudioToolbox.framework */,
+				88A9D404125AA169000F9EE7 /* AVFoundation.framework */,
+				88A9D406125AA16E000F9EE7 /* CoreMedia.framework */,
+				88A9D408125AA181000F9EE7 /* MediaPlayer.framework */,
+				9A924161128A69BD00A20C59 /* CoreData.framework */,
+				9A9241D3128AA6AA00A20C59 /* CoreLocation.framework */,
+				9AA959B1128C0FF600111A1D /* MapKit.framework */,
+				DBE811FD1372B90800B6B9DE /* GracenoteMusicID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B31BC3551879C4EC0040DB30 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				B31BC31E1879C4A60040DB30 /* album_daftpunk_large.png */,
+				B31BC31F1879C4A60040DB30 /* album_edwinbirdsong_large.png */,
+				B31BC3201879C4A60040DB30 /* appicon.png */,
+				B31BC3211879C4A60040DB30 /* arrow_sampledin_large.png */,
+				B31BC3221879C4A60040DB30 /* arrow_sampledin_small.png */,
+				B31BC3131879C48D0040DB30 /* button_search.png */,
+				B37015E01879BFB000863E57 /* background.png */,
+				B37015D018794FE900863E57 /* Default.png */,
+				B37015CE18794D0C00863E57 /* icon.png */,
+				B31BC3521879C4DB0040DB30 /* text_roots.png */,
+				B31BC33D1879C4C70040DB30 /* button_buy.png */,
+				B31BC33E1879C4C70040DB30 /* button_pause.png */,
+				B31BC33F1879C4C70040DB30 /* button_play.png */,
+				B31BC3401879C4C70040DB30 /* button_search_2.png */,
+				B31BC3411879C4C70040DB30 /* button_search.png */,
+				B31BC3421879C4C70040DB30 /* button_tree.png */,
+				B31BC3431879C4C70040DB30 /* element_green.png */,
+				B31BC3161879C4A60040DB30 /* album_1_small.png */,
+				B31BC3171879C4A60040DB30 /* album_2_small.png */,
+				B31BC3181879C4A60040DB30 /* album_3_small.png */,
+				B31BC3191879C4A60040DB30 /* album_4_small.png */,
+				B31BC31A1879C4A60040DB30 /* album_5_small.png */,
+				B31BC31B1879C4A60040DB30 /* album_6_small.png */,
+				B31BC31C1879C4A60040DB30 /* album_7_small.png */,
+				B31BC31D1879C4A60040DB30 /* album_8_small.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* GN_Music_SDK_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "GN_Music_SDK_iOS" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GN_Music_SDK_iOS;
+			productName = GN_Music_SDK_iOS;
+			productReference = 1D6058910D05DD3D006BFB54 /* Roots.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED711454180CC80B009426F0 /* GN_Music_SDK_iOS_64bit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED711495180CC80B009426F0 /* Build configuration list for PBXNativeTarget "GN_Music_SDK_iOS_64bit" */;
+			buildPhases = (
+				ED711455180CC80B009426F0 /* Resources */,
+				ED711465180CC80B009426F0 /* Sources */,
+				ED711484180CC80B009426F0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GN_Music_SDK_iOS_64bit;
+			productName = GN_Music_SDK_iOS;
+			productReference = ED711498180CC80B009426F0 /* GN_Music_SDK_iOS_64bit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "GN_Music_SDK_iOS" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* GN_Music_SDK_iOS */,
+				ED711454180CC80B009426F0 /* GN_Music_SDK_iOS_64bit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B31BC3251879C4A60040DB30 /* album_2_small.png in Resources */,
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				B31BC3461879C4C70040DB30 /* button_pause.png in Resources */,
+				CD6846D611D9464D00E4BF53 /* Dido_MyLoversGone_Fingerprint_MIDStream.xml in Resources */,
+				B31BC3391879C4A60040DB30 /* arrow_sampledin_large.png in Resources */,
+				B31BC3481879C4C70040DB30 /* button_play.png in Resources */,
+				CD6846D711D9464D00E4BF53 /* icon.old.png in Resources */,
+				B31BC34E1879C4C70040DB30 /* button_tree.png in Resources */,
+				B37015CF18794D0C00863E57 /* icon.png in Resources */,
+				B31BC3271879C4A60040DB30 /* album_3_small.png in Resources */,
+				CD6846D811D9464D00E4BF53 /* sample.pcm in Resources */,
+				B31BC3231879C4A60040DB30 /* album_1_small.png in Resources */,
+				CD6846DC11D9465E00E4BF53 /* SearchByLyricFragmentViewController.xib in Resources */,
+				B31BC32D1879C4A60040DB30 /* album_6_small.png in Resources */,
+				B31BC33B1879C4A60040DB30 /* arrow_sampledin_small.png in Resources */,
+				B31BC3371879C4A60040DB30 /* appicon.png in Resources */,
+				B31BC3331879C4A60040DB30 /* album_daftpunk_large.png in Resources */,
+				CD6846DD11D9465E00E4BF53 /* SearchByTextViewController.xib in Resources */,
+				B37015E11879BFB000863E57 /* background.png in Resources */,
+				B37015D118794FE900863E57 /* Default.png in Resources */,
+				B31BC3531879C4DB0040DB30 /* text_roots.png in Resources */,
+				CD6846DE11D9465E00E4BF53 /* SearchResultTableViewController.xib in Resources */,
+				9A994AA5128D15F900C98934 /* MapViewController.xib in Resources */,
+				B31BC32F1879C4A60040DB30 /* album_7_small.png in Resources */,
+				B31BC3501879C4C70040DB30 /* element_green.png in Resources */,
+				AF86A52E12FBDE2400BF7317 /* Review_biographyViewController.xib in Resources */,
+				B31BC3311879C4A60040DB30 /* album_8_small.png in Resources */,
+				B31BC34A1879C4C70040DB30 /* button_search_2.png in Resources */,
+				CEC9BE3815346AB100BC8F6A /* loading.png in Resources */,
+				B31BC3291879C4A60040DB30 /* album_4_small.png in Resources */,
+				B31BC32B1879C4A60040DB30 /* album_5_small.png in Resources */,
+				B31BC34C1879C4C70040DB30 /* button_search.png in Resources */,
+				B31BC3141879C48D0040DB30 /* button_search.png in Resources */,
+				CEB8225B1538388E0050C8DF /* SearchHistoryViewController.xib in Resources */,
+				B37015D318796CDC00863E57 /* GN_Music_SDK_iOSViewController.xib in Resources */,
+				B31BC3351879C4A60040DB30 /* album_edwinbirdsong_large.png in Resources */,
+				B31BC3441879C4C70040DB30 /* button_buy.png in Resources */,
+				CE67A0E1159CA3D6000C3D25 /* no_Loading.png in Resources */,
+				9A95661C16A020C100FE52C9 /* Default-568h@2x.png in Resources */,
+				9A23B51216AFC43D0091E340 /* 161.b in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED711455180CC80B009426F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B31BC3541879C4DB0040DB30 /* text_roots.png in Resources */,
+				ED711456180CC80B009426F0 /* MainWindow.xib in Resources */,
+				B31BC3511879C4C70040DB30 /* element_green.png in Resources */,
+				B31BC3491879C4C70040DB30 /* button_play.png in Resources */,
+				B31BC3321879C4A60040DB30 /* album_8_small.png in Resources */,
+				B31BC32A1879C4A60040DB30 /* album_4_small.png in Resources */,
+				B31BC3261879C4A60040DB30 /* album_2_small.png in Resources */,
+				B31BC33A1879C4A60040DB30 /* arrow_sampledin_large.png in Resources */,
+				B31BC3451879C4C70040DB30 /* button_buy.png in Resources */,
+				ED711458180CC80B009426F0 /* Dido_MyLoversGone_Fingerprint_MIDStream.xml in Resources */,
+				B31BC34B1879C4C70040DB30 /* button_search_2.png in Resources */,
+				ED711459180CC80B009426F0 /* icon.old.png in Resources */,
+				ED71145A180CC80B009426F0 /* sample.pcm in Resources */,
+				ED71145B180CC80B009426F0 /* SearchByLyricFragmentViewController.xib in Resources */,
+				ED71145C180CC80B009426F0 /* SearchByTextViewController.xib in Resources */,
+				ED71145D180CC80B009426F0 /* SearchResultTableViewController.xib in Resources */,
+				B31BC32C1879C4A60040DB30 /* album_5_small.png in Resources */,
+				B31BC3151879C48D0040DB30 /* button_search.png in Resources */,
+				ED71145E180CC80B009426F0 /* MapViewController.xib in Resources */,
+				B31BC3561879CD2C0040DB30 /* GN_Music_SDK_iOSViewController.xib in Resources */,
+				ED71145F180CC80B009426F0 /* Review_biographyViewController.xib in Resources */,
+				B31BC3381879C4A60040DB30 /* appicon.png in Resources */,
+				ED711460180CC80B009426F0 /* loading.png in Resources */,
+				ED711461180CC80B009426F0 /* SearchHistoryViewController.xib in Resources */,
+				B31BC34F1879C4C70040DB30 /* button_tree.png in Resources */,
+				ED711462180CC80B009426F0 /* no_Loading.png in Resources */,
+				B31BC3471879C4C70040DB30 /* button_pause.png in Resources */,
+				B31BC33C1879C4A60040DB30 /* arrow_sampledin_small.png in Resources */,
+				B31BC3361879C4A60040DB30 /* album_edwinbirdsong_large.png in Resources */,
+				B31BC3241879C4A60040DB30 /* album_1_small.png in Resources */,
+				B31BC3341879C4A60040DB30 /* album_daftpunk_large.png in Resources */,
+				B31BC3281879C4A60040DB30 /* album_3_small.png in Resources */,
+				ED711463180CC80B009426F0 /* Default-568h@2x.png in Resources */,
+				ED711464180CC80B009426F0 /* 161.b in Resources */,
+				B31BC32E1879C4A60040DB30 /* album_6_small.png in Resources */,
+				B31BC34D1879C4C70040DB30 /* button_search.png in Resources */,
+				B31BC3301879C4A60040DB30 /* album_7_small.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* GN_Music_SDK_iOSAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* GN_Music_SDK_iOSViewController.m in Sources */,
+				CD6846F511D9469100E4BF53 /* LookupFingerprintOperation.m in Sources */,
+				CD6846F611D9469100E4BF53 /* RecognizeFromMicOperation.m in Sources */,
+				CD6846F711D9469100E4BF53 /* RecognizeFromPCMOperation.m in Sources */,
+				CD6846F811D9469100E4BF53 /* SearchByFingerprintOperation.m in Sources */,
+				CD6846F911D9469100E4BF53 /* SearchByLyricFragmentOperation.m in Sources */,
+				CD6846FA11D9469100E4BF53 /* SearchByLyricFragmentViewController.m in Sources */,
+				CD6846FB11D9469100E4BF53 /* SearchByOperation.m in Sources */,
+				CD6846FC11D9469100E4BF53 /* SearchByTextOperation.m in Sources */,
+				CD6846FD11D9469100E4BF53 /* SearchByTextViewController.m in Sources */,
+				CD6846FE11D9469100E4BF53 /* SearchResultTableViewController.m in Sources */,
+				9A37E4D2128977CD00EF2290 /* History.xcdatamodel in Sources */,
+				9A9241CC128AA67800A20C59 /* History.m in Sources */,
+				9A9241CD128AA67800A20C59 /* Metadata.m in Sources */,
+				9A9241CE128AA67800A20C59 /* CoverArt.m in Sources */,
+				9A924290128AC67700A20C59 /* SearchHistoryViewController.m in Sources */,
+				9AA95989128C0F4600111A1D /* MapViewController.m in Sources */,
+				9AA959D6128C16F000111A1D /* MapAnnotation.m in Sources */,
+				9AA959F0128C1B4300111A1D /* AnnotationData.m in Sources */,
+				A044874812928A87002863F2 /* SearchByTrackIdOperation.m in Sources */,
+				A0DD2018129523AF00EA4A37 /* RecognizeFromFileOperation.m in Sources */,
+				AF86A52C12FBDE1200BF7317 /* Review_biographyViewController.m in Sources */,
+				AF86A5B612FBF66B00BF7317 /* AlbumDetailHeaderView.m in Sources */,
+				5BB4775813A004B6001963F1 /* AlbumIdOperation.m in Sources */,
+				CEC9BE2D1534698900BC8F6A /* SizableImageCell.m in Sources */,
+				CEC9BE3515346AA600BC8F6A /* IconDownloader.m in Sources */,
+				CEFE471F155BACCD006B0432 /* ImgRecord.m in Sources */,
+				9A972C03162C4C7B00BA33A1 /* RecognizeStreamOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED711465180CC80B009426F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED711466180CC80B009426F0 /* main.m in Sources */,
+				ED711467180CC80B009426F0 /* GN_Music_SDK_iOSAppDelegate.m in Sources */,
+				ED711468180CC80B009426F0 /* GN_Music_SDK_iOSViewController.m in Sources */,
+				ED711469180CC80B009426F0 /* LookupFingerprintOperation.m in Sources */,
+				ED71146A180CC80B009426F0 /* RecognizeFromMicOperation.m in Sources */,
+				ED71146B180CC80B009426F0 /* RecognizeFromPCMOperation.m in Sources */,
+				ED71146C180CC80B009426F0 /* SearchByFingerprintOperation.m in Sources */,
+				ED71146D180CC80B009426F0 /* SearchByLyricFragmentOperation.m in Sources */,
+				ED71146E180CC80B009426F0 /* SearchByLyricFragmentViewController.m in Sources */,
+				ED71146F180CC80B009426F0 /* SearchByOperation.m in Sources */,
+				ED711470180CC80B009426F0 /* SearchByTextOperation.m in Sources */,
+				ED711471180CC80B009426F0 /* SearchByTextViewController.m in Sources */,
+				ED711472180CC80B009426F0 /* SearchResultTableViewController.m in Sources */,
+				ED711473180CC80B009426F0 /* History.xcdatamodel in Sources */,
+				ED711474180CC80B009426F0 /* History.m in Sources */,
+				ED711475180CC80B009426F0 /* Metadata.m in Sources */,
+				ED711476180CC80B009426F0 /* CoverArt.m in Sources */,
+				ED711477180CC80B009426F0 /* SearchHistoryViewController.m in Sources */,
+				ED711478180CC80B009426F0 /* MapViewController.m in Sources */,
+				ED711479180CC80B009426F0 /* MapAnnotation.m in Sources */,
+				ED71147A180CC80B009426F0 /* AnnotationData.m in Sources */,
+				ED71147B180CC80B009426F0 /* SearchByTrackIdOperation.m in Sources */,
+				ED71147C180CC80B009426F0 /* RecognizeFromFileOperation.m in Sources */,
+				ED71147D180CC80B009426F0 /* Review_biographyViewController.m in Sources */,
+				ED71147E180CC80B009426F0 /* AlbumDetailHeaderView.m in Sources */,
+				ED71147F180CC80B009426F0 /* AlbumIdOperation.m in Sources */,
+				ED711480180CC80B009426F0 /* SizableImageCell.m in Sources */,
+				ED711481180CC80B009426F0 /* IconDownloader.m in Sources */,
+				ED711482180CC80B009426F0 /* ImgRecord.m in Sources */,
+				ED711483180CC80B009426F0 /* RecognizeStreamOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 3.3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GN_Music_SDK_iOS_Prefix.pch;
+				INFOPLIST_FILE = "GN_Music_SDK_iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-lstdc++";
+				PRODUCT_NAME = Roots;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv6 armv7";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GN_Music_SDK_iOS_Prefix.pch;
+				INFOPLIST_FILE = "GN_Music_SDK_iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-lstdc++";
+				PRODUCT_NAME = Roots;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv6 armv7";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CURRENT_PROJECT_VERSION = 3.3;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 arm64 armv7s";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CURRENT_PROJECT_VERSION = 3.3;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 arm64 armv7s";
+			};
+			name = Release;
+		};
+		ED711496180CC80B009426F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 3.3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GN_Music_SDK_iOS_Prefix.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/GN_Music_SDK_iOS_64bit.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-lstdc++";
+				PRODUCT_NAME = GN_Music_SDK_iOS_64bit;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED711497180CC80B009426F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GN_Music_SDK_iOS_Prefix.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/GN_Music_SDK_iOS_64bit.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-lstdc++";
+				PRODUCT_NAME = GN_Music_SDK_iOS_64bit;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "GN_Music_SDK_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "GN_Music_SDK_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED711495180CC80B009426F0 /* Build configuration list for PBXNativeTarget "GN_Music_SDK_iOS_64bit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED711496180CC80B009426F0 /* Debug */,
+				ED711497180CC80B009426F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

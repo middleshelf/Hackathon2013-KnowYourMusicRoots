@@ -1,0 +1,24 @@
+var searchData=
+[
+  ['getbooleanproperty_3a',['getBooleanProperty:',['../interface_g_n_config.html#ad36e087af4bb09dc2e57a1269f32e456',1,'GNConfig']]],
+  ['getproperty_3a',['getProperty:',['../interface_g_n_config.html#a00489bcaa6c83851ddb112ca092962c9',1,'GNConfig']]],
+  ['gnalbumidattributes_3aidentifier_3aalbumtitle_3atracktitle_3atracknumber_3agenre_3aartist_3agnid_3a',['gNAlbumIdAttributes:identifier:albumTitle:trackTitle:trackNumber:genre:artist:gnId:',['../interface_g_n_album_id_attributes.html#a3c9be91a15e172b1a35c2aaa5f3802a6',1,'GNAlbumIdAttributes']]],
+  ['gnalbumidattributes_3aidentifier_3aalbumtitle_3atracktitle_3atracknumber_3agenre_3aartist_3agnid_3afingerprintdata_3a',['gNAlbumIdAttributes:identifier:albumTitle:trackTitle:trackNumber:genre:artist:gnId:fingerPrintData:',['../interface_g_n_album_id_attributes.html#aac186387b77b86676b4bf0cfb50698b2',1,'GNAlbumIdAttributes']]],
+  ['gnalbumidfileerror_3aerrorcode_3aerrormessage_3a',['gNAlbumIdFileError:errorCode:errorMessage:',['../interface_g_n_album_id_file_error.html#aee9d8e67317fc0cd8f10abdbb2c6df90',1,'GNAlbumIdFileError']]],
+  ['gnaudioconfigwithsamplerate_3abytespersample_3anumchannels_3a',['gNAudioConfigWithSampleRate:bytesPerSample:numChannels:',['../interface_g_n_audio_config.html#a0f549c7c2805d6027964dd0a4f8a6437',1,'GNAudioConfig']]],
+  ['gnaudiosourcemic_3a',['gNAudioSourceMic:',['../interface_g_n_audio_source_mic.html#a1ea8f21e0e699c2349cd6fb5ff903be8',1,'GNAudioSourceMic']]],
+  ['gncachestatus_3a',['gNCacheStatus:',['../interface_g_n_cache_status.html#a9580ae383426a07042c9defce241fb31',1,'GNCacheStatus']]],
+  ['gncoverart_3adata_3amimetype_3a',['gNCoverArt:data:mimeType:',['../interface_g_n_cover_art.html#a9e454443c7f9c67048dc1449499e2652',1,'GNCoverArt']]],
+  ['gncoverart_3asize_3a',['gNCoverArt:size:',['../interface_g_n_cover_art.html#a481ce6444780ee908cf8a6ffcf2b07a3',1,'GNCoverArt']]],
+  ['gndescriptor_3aitemid_3aitemdata_3a',['gNDescriptor:itemId:itemData:',['../interface_g_n_descriptor.html#acc9e0c6558301f33a06acf5f76be4610',1,'GNDescriptor']]],
+  ['gnfingerprintresult_3a',['gNFingerprintResult:',['../interface_g_n_fingerprint_result.html#adfd14fcd96f1607074076c21a49e363c',1,'GNFingerprintResult']]],
+  ['gnfingerprintresultwithresult_3a',['gNFingerprintResultWithResult:',['../interface_g_n_fingerprint_result.html#a7f184efb6370965df2220bd00ff35bb4',1,'GNFingerprintResult']]],
+  ['gnlinkdata_3auid_3a',['gNLinkData:uid:',['../interface_g_n_link_data.html#a0c13d54a3333fdd1b398726e40feeb69',1,'GNLinkData']]],
+  ['gnrecognizestream_3a',['gNRecognizeStream:',['../interface_g_n_recognize_stream.html#a820e10f1a8e1ac033ab9dea2a5345caf',1,'GNRecognizeStream']]],
+  ['gnresultready_3a',['GNResultReady:',['../protocol_g_n_fingerprint_result_ready-p.html#a445b9e3bdde41779971f487d92834ffa',1,'GNFingerprintResultReady-p::GNResultReady:()'],['../protocol_g_n_search_result_ready-p.html#a3013f9c33de8a406cf0d3cb6dd93462c',1,'GNSearchResultReady-p::GNResultReady:()']]],
+  ['gnsamplebuffer_3abytespersample_3anumchannels_3asamplerate_3a',['gNSampleBuffer:bytesPerSample:numChannels:sampleRate:',['../interface_g_n_sample_buffer.html#a39e516ace365a3a53f4259b3627c1c0c',1,'GNSampleBuffer']]],
+  ['gnsamplebuffer_3anumchannels_3asamplerate_3a',['gNSampleBuffer:numChannels:sampleRate:',['../interface_g_n_sample_buffer.html#abce1d8a1395a2726d863924256c1f294',1,'GNSampleBuffer']]],
+  ['gnsamplebuffer_3anumchannels_3asamplerate_3abufferstarttimeinterval_3a',['gNSampleBuffer:numChannels:sampleRate:bufferStartTimeInterval:',['../interface_g_n_sample_buffer.html#a1b7c671b0d136cdc0330595878acebbd',1,'GNSampleBuffer']]],
+  ['gnstatus_3amessage_3apercentdone_3a',['gNStatus:message:percentDone:',['../interface_g_n_status.html#a78f2ae34c7aef04fa6bb3764a4d4f909',1,'GNStatus']]],
+  ['gnstatuschanged_3a',['GNStatusChanged:',['../protocol_g_n_operation_status_changed-p.html#aa5835db7c6b944e4dbc49e0b50d31ede',1,'GNOperationStatusChanged-p']]]
+];

@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['adjustedsongposition',['adjustedSongPosition',['../interface_g_n_search_response.html#a026d33f912483d33075505926c495113',1,'GNSearchResponse']]],
+  ['albumartist',['albumArtist',['../interface_g_n_search_response.html#a2b6f70c431386acb5816abdcd90263bc',1,'GNSearchResponse']]],
+  ['albumartistbetsumei',['albumArtistBetsumei',['../interface_g_n_search_response.html#ae7c1d61c966d70c55f2e7191e1c3f199',1,'GNSearchResponse']]],
+  ['albumartistyomi',['albumArtistYomi',['../interface_g_n_search_response.html#afafcde47a002e04cb6246e9342418f21',1,'GNSearchResponse']]],
+  ['albumgenre',['albumGenre',['../interface_g_n_search_response.html#a5874b793ce4e84f2efb4177c3f84306f',1,'GNSearchResponse']]],
+  ['albumid',['albumId',['../interface_g_n_search_response.html#a6935e5f63756e243f7227af52287a1ed',1,'GNSearchResponse']]],
+  ['albumlinkdata',['albumLinkData',['../interface_g_n_search_response.html#a1e18f2ad971dfb00b576cda8bdeb434c',1,'GNSearchResponse']]],
+  ['albumreleaseyear',['albumReleaseYear',['../interface_g_n_search_response.html#a4a50e51239110619b0502d2d1e98aaee',1,'GNSearchResponse']]],
+  ['albumreview',['albumReview',['../interface_g_n_search_response.html#a4e7a4e5600133d373239317aa6e4ae9c',1,'GNSearchResponse']]],
+  ['albumreviewurl',['albumReviewUrl',['../interface_g_n_search_response.html#ada27fc0f2b9093118649499666398a84',1,'GNSearchResponse']]],
+  ['albumtitle',['albumTitle',['../interface_g_n_album_id_attributes.html#a2719797f000b3f07c820daa1442b2c1f',1,'GNAlbumIdAttributes::albumTitle()'],['../interface_g_n_search_response.html#a6b3dcc98027be4f110e935cc5829ca62',1,'GNSearchResponse::albumTitle()']]],
+  ['albumtitleyomi',['albumTitleYomi',['../interface_g_n_search_response.html#a5b1d595a5721c971225d73f9f551893a',1,'GNSearchResponse']]],
+  ['albumtrackcount',['albumTrackCount',['../interface_g_n_search_response.html#a73b7f41bafd8a640fd0e5f7f0be0fe69',1,'GNSearchResponse']]],
+  ['artist',['artist',['../interface_g_n_album_id_attributes.html#a119aa1df0298a0785d958b5c1643effd',1,'GNAlbumIdAttributes::artist()'],['../interface_g_n_search_response.html#ac004b9399b4217788ae4c54a323f3101',1,'GNSearchResponse::artist()']]],
+  ['artistbetsumei',['artistBetsumei',['../interface_g_n_search_response.html#a7fa1cc4a739cb8701f5e635ab5c5c0ea',1,'GNSearchResponse']]],
+  ['artistbiography',['artistBiography',['../interface_g_n_search_response.html#a38ab5f4fc090d606b8dfb559fb644686',1,'GNSearchResponse']]],
+  ['artistbiographyurl',['artistBiographyUrl',['../interface_g_n_search_response.html#a9cd518923bf9d903e302fc96ef6d4398',1,'GNSearchResponse']]],
+  ['artisttype',['artistType',['../interface_g_n_search_response.html#ad3897d5dc6826fc08510c61554279058',1,'GNSearchResponse']]],
+  ['artistyomi',['artistYomi',['../interface_g_n_search_response.html#a3e7cb1c12708dd6082632a191da892e6',1,'GNSearchResponse']]]
+];

@@ -1,0 +1,13 @@
+//
+// Prefix header for all source files of the 'GN_Music_SDK_iOS' target in the 'GN_Music_SDK_iOS' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
+
+// You have been issued a Gracenote Client ID from Gracenote Professional Services.
+// Replace CLIENTID in [ClientID]-[ClientID Tag] form.
+
+#define CLIENTID @"8814592-90A78C885CC0D854DBDF81F480574EB8" // replace me
